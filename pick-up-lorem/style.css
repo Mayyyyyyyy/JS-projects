@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bg: #93515d;
+}
+
+body{
+    background: var(--bg);
+}
+
+h2{
+    width:100vw;
+    height:20vh;
+    padding:10vh 0 0 0;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height:20vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding:50px 80px;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+}
+
+button{
+    width:100px;
+    height: 35px;
+    margin-left: 10px;
+    background: none;
+}
+
+button:hover{
+    background: rgb(235, 235, 19);
+}
+
+.active{  
+    display: inline-block;
+    padding:20px 20px;
+}
+
+
+/* Switches */
+
+.switches{
+    width: 100%;
+    height: 10vh;
+}
+
+span{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    border: 1px solid black;
+}
